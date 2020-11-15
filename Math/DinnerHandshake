@@ -1,0 +1,29 @@
+Mr. Lars and his wife Mrs. Lars went to a meetup and met 4 other married couples. Some people shook hands with each other,
+but no person shook hands with his or her spouse, and no person shook his or her own hand. Mr. Lars then asked each person,
+including his wife, “How many distinct people did you shake hands with?” Each person answered honestly, and 
+surprisingly each person gave a different answer! How many distinct people did Mrs. Lars shake hands with? And how many
+distinct people did Mr. Lars shake hands with?
+
+Solution:
+N – 1, where N is the total no. of couples at the dinner.
+Explanation:
+
+The possible numbers of handshakes range from 0 to 2N-2. (2N-1 would require that a person shook hands with every other 
+person at the party, but nobody shook hands with his/her spouse.)
+There are 2N-1 different numbers, and the host got 2N-1 different answers, so every number is represented.
+One person (0) shook no hands, and another (2N-2) shook hands with everybody from all the other couples. This is only possible 
+if these two are a married couple, because otherwise 2N-2 would have had to have shaken 0’s hand.
+One person (1) shook only 2N-2’s hand, and another (2N-3) shook hands with everybody from all the other couples except 0. Again, 
+these two must be married, or else 2N-3 would have had to have shaken 1’s hand, a contradiction.
+Continuing this logic, eventually you pair up all the couples besides the hosts, each one pairing a shook-no-hands-not-already-mentioned 
+person with a shook-all-hands-not-already-mentioned person, the last having shaken N-2 and N hands respectively.
+This tells that the hostess must have shaken N-1 hands, since there are N-1 shook-no-other-hands people and N-1 shook-all-other-hands 
+people. Both the host and hostess shook hands with exactly one member of each couple – the same ones – and thus each shook N-1 people’s hands
+Example:
+N = 6
+
+5 couples are invited to the dinner. Among the total six couples, no one shook more than 10 hands.
+Therefore, if eleven people each shake a different number of hands, the numbers must be 0, 1, 2, …, and 10.
+The person who shook 10 hands has to be married to the person who shook 0 hands (otherwise that person could have shaken only ten hands).
+Similarly, the person who shook nine hands is bound to be married to the person who shook 1 hand.
+Continuing the logic, couples shook hands in pairs as mentioned 10/0, 9/1, 8/2, 7/3, 6/4. The only person left who shook hands with 5 is the hostess.
