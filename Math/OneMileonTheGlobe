@@ -1,0 +1,30 @@
+Q. Find out the number of points on the globe (Earth) where if we move one mile south, then one mile east and finally one mile north, we arrive at the starting point.
+
+Options:
+
+A) One
+B) Two
+C) Infinite
+D) Zero
+
+https://www.geeksforgeeks.org/puzzle-one-mile-on-the-globe-mcq/
+
+
+Solution: C
+
+Explanation : Moving one mile east or west corresponds to rotating the globe by the Radian equivalent of one mile. 
+The Northernmost point is the North Pole (cannot go North from there) and the Southernmost point is the South Pole 
+(cannot go South from there). Further, rotating the globe by any amount will not alter the position if we are present on either of the Poles.
+
+
+
+
+
+Clearly, one such point is the North Pole.
+
+Note that South Pole can’t be in the solution set because if we go South from the South Pole, we end up at the South Pole itself. 
+Similarly if we go North of the North Pole, we end up at the North Pole itself.
+
+Now consider the latitude located at (1/R) radians from the Earth’s axis (where R is the vertical radius of the Earth), 
+in the Southern Hemisphere. When we go one mile South, we end up at the South Pole. When we go one mile east, we are basically rotating the globe westwards by the radian equivalent of one mile (rotating it about the axis, means we are still present on the South Pole) and finally when we go back 
+1 mile North, we reach the same point we began with. This is true for all the infinite points on this latitude.
