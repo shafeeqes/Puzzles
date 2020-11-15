@@ -1,0 +1,21 @@
+On an Island, there is an airport that has an unlimited number of identical air-planes. Each air-plane has a fuel capacity 
+to allow it to fly exactly 1/2 way around the world, along a great circle. The planes have the ability to refuel in flight without 
+loss of speed or spillage of fuel. Though the fuel is unlimited, the island is the only source of fuel. You can ignore the time and
+fuel consumption of refuelling.What is the minimum number of air-planes required to get one air plane all the way around the world
+assuming that all of the air planes must return safely to the airport?
+
+
+
+After 1/6th of the circumference (50 units), Y passes 1/3rd of its fuel to Z and returns (Y has fuel left to travel exactly 50 units).
+
+Now Z has fuel left for 150 units (Completely filled). At 1/4th of the distance around the world, Z has fuel for 125 units and X 
+has fuel for 75 units. Z completely fills the tank of X which is now able to fly to a point 3/4 of the way around the world.
+
+Now Z has fuel for 50 units. Z now has only 1/3 of its fuel (can travel 50 units) left which is not enough to get back to the airport. 
+But Y reaches it in time in order to refuel it, and both Y and Z air plane are the able to return safely to the airport.
+
+Both Y and Z gets refuelled and fly towards X. Again Y refuels Z and returns to the to be refuelled. Z reaches X at the point where it 
+has flown 3/4 around the world. This time Y and Z come from other direction so that the distance left is 1/4. (If they had come clockwise earlier,
+they come anti-clockwise this time).
+
+All 3 aircraft can safely return to the home base
