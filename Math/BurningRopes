@@ -1,0 +1,13 @@
+You have two ropes and a box of matches. Each rope takes exactly one hour to burn, but they may not necessarily burn evenly – 
+i.e., the first half might burn in the first 10 minutes and the second in the remaining 50). What durations of time can you
+measure using the 2 ropes? Times do not have to start when the first rope is lit.
+
+ Note that this is a multiple choice question. Mark all the times which are measurable. 
+ 
+ 
+ 
+ Burning a single rope lets you measure 1 hour. Burning 2 ends of it at the same time let you measure 30 minutes.
+Start by lighting both ends of one rope and only one end of the second rope. When the first rope is finished burning
+(i.e., after a half an hour), light the other end of the second rope. At this point, the second rope is halfway burned, 
+so it will take another 15 minutes to burn the second half with both ends lit. When the second rope is done burning, 45 minutes has elapsed.
+15 minutes has elapsed after first rope is completely burnt.
