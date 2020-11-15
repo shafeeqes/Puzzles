@@ -5,6 +5,11 @@ surprisingly each person gave a different answer! How many distinct people did M
 distinct people did Mr. Lars shake hands with?
 
 Solution:
+
+https://mindyourdecisions.com/blog/2017/08/06/the-impossible-handshake-logic-puzzle-a-martin-gardner-classic/
+
+
+
 N – 1, where N is the total no. of couples at the dinner.
 Explanation:
 
@@ -27,3 +32,22 @@ Therefore, if eleven people each shake a different number of hands, the numbers 
 The person who shook 10 hands has to be married to the person who shook 0 hands (otherwise that person could have shaken only ten hands).
 Similarly, the person who shook nine hands is bound to be married to the person who shook 1 hand.
 Continuing the logic, couples shook hands in pairs as mentioned 10/0, 9/1, 8/2, 7/3, 6/4. The only person left who shook hands with 5 is the hostess.
+
+
+
+
+
+Answer To Seemingly Impossible Handshake Logic Puzzle
+Let’s work out a smaller example to understand the logic. Imagine a smaller meetup with Mr. and Mrs. Lars and 1 other couple. 
+The group has 4 people in total. 
+Since no one shakes hands with his or her spouse, and no one shakes hands his or her own hand, each person can possibly shake hands 
+with 0, 1, or 2 people. If Mr. Lars heard 3 different answers from the 3 people he asked, then each person gave one of the 3 possible answers.
+
+The person who shook 2 hands must have shaken hands with everyone else except his or her own spouse. This implies everyone else at
+the meetup shakes hands with at least 1 person. The only person who could have answered 0 is then the spouse of the person who answered 2. 
+The answers of 2 and 0 are paired and belong to the other couple.
+
+By process of elimination, the remaining answer of 1 must be from Mrs. Lars. Thus, Mrs. Lars shook hands with 1 person.
+
+What about Mr. Lars? He did shake hands with the person who answered 2, he could not have shaken hands with his wife who answered 1, and 
+he could not have shaken hands with the person who answered 0. Thus, Mr. Lars must have shaken hands with 1 person, exactly the same as his wife
