@@ -1,0 +1,38 @@
+Every day, Joe arrives at the train station from work at 6pm.
+His wife leaves home in her car and meets him there at exactly 6pm, and drives him home. One day, 
+Joe gets to the station an hour early, and starts walking home, until his wife meets him on the road. They get home 20 minutes earlier than usual.
+How long was he walking?
+Distances are unspecified. Speeds are unspecified, but constant.
+Output a number which represents the answer in minutes.
+
+
+
+Case 1 : Answer is a integer. Just put the number without any decimal places if its an integer. If the answer is Infinity, output Infinity.
+Case 2 : Floating point number. Round it off to 2 decimal places and output it as I.xx where I is the integer part of the answer, and xx are 2 decimal digits after rounding off.
+Feel free to get in touch with us if you have any questions 
+
+
+MY approach:
+
+Let the usual time wife leaves home to pick Joe is 5 30
+so 30mins drive to station. and back. so 6 30 usual time.
+
+today she reached 20mins before. so 6 10;
+So the distance travelled 2x is 6 10 - 5 30  or 40mins. x is 20 mins.
+
+so she met him 20mins before 6 10. that is 5 50.
+he reached station at 5. so he have been walking for 50 mins.
+
+
+Similar approach:
+
+
+
+00, he must have been walking for 50 minutes.
+Here’s another way to look at it: notice that we didn’t specify any of the distances, including how far away 
+Joe’s house is from the train station. So let’s try examining a degenerate case, say, where Joe lives at the train 
+station. But this doesn’t make much sense, because his wife’s round trip can’t decrease by 20 minutes if it is already zero. 
+So the real degenerate case is when Joe’s wife normally has to drive 10 minutes to get to the train station, and thus her 
+round trip is 20 minutes less, i.e., zero minutes in the case. This means that John meets her at home just as she is about to leave. 
+What time does she normally leave? At 5:50, so she can get to the train station at 6:00. Thus Joe must have been walking for
+50 minutes to arrive home at 5:50.
